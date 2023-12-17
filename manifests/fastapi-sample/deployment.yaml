@@ -18,7 +18,7 @@ spec:
         app: sample-app
     spec:
       containers:
-        - image: ghcr.io/tagamiyu/fastapi-sample:pr-11
+        - image: ghcr.io/tagamiyu/fastapi-sample:pr-13
           name: fastapi-sample
           envFrom:
             - configMapRef:
